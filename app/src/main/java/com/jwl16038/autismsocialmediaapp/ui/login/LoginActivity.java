@@ -132,6 +132,9 @@ public class LoginActivity extends AppCompatActivity {
         String welcome = getString(R.string.welcome) + model.getDisplayName();
         // TODO : initiate successful logged in experience
         Toast.makeText(getApplicationContext(), welcome, Toast.LENGTH_LONG).show();
+
+
+
         Intent intent = new Intent(getApplicationContext(), Homepage.class);
         startActivity(intent);
     }
